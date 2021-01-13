@@ -10,5 +10,4 @@ The default Dockerfile installs all dependencies and runs as
 an unprivileged user with Chrome in sandboxed mode.
 You can reach the API at `/render` on port 8082.
 
-**NOTICE:** You need to run your container with the `SYS_ADMIN`
-capability for the Chrome sandbox to work.
+See my blog post for more usage information: https://blog.timo.page/rendering-html-to-pdf-in-laravel-and-docker
